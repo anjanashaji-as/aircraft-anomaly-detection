@@ -1,0 +1,7 @@
+# This file exists to keep the data/ folder tracked by git.
+# Place your CSV datasets here:
+# - Aircraft_Annotation_DataFile.csv
+# - Aviation_Abbreviation_Dataset.csv
+# - Aviation_Grammar_Dataset.csv
+# - Aviation_Morphosyntactic_Dataset.csv
+# - Aviation_TermBanks_Dataset.csv

@@ -60,7 +60,7 @@ aircraft-anomaly-detection/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/aircraft-anomaly-detection.git
+git clone https://github.com/anjanashaji-as/aircraft-anomaly-detection.git
 cd aircraft-anomaly-detection
 ```
 
@@ -77,7 +77,7 @@ Place the five CSV files into the `data/` folder (see structure above).
 jupyter notebook "Anomaly_Detection_in_Aircraft_Maintenance_Logs.ipynb"
 ```
 
-> **Note:** The notebook was originally developed on **Google Colab**. If running locally, the `from google.colab import files` cell (Step 3) should be replaced with local `pd.read_csv('data/filename.csv')` calls.
+> **Note:** The notebook works in both **Google Colab** and local Jupyter. When run locally, the Colab file upload step is automatically skipped — just place your CSV files in the `data/` folder as described in Step 3.
 
 ---
 

@@ -1,8 +1,6 @@
 # Anomaly Detection in Aircraft Maintenance Logs
 
-**MSc Computer Science (Artificial Intelligence) — Final Dissertation**  
-**University of East London**  
-**Student:** Anjana Shaji | **Supervisor:** Mr. Mahmud Ahmed
+**MSc Computer Science (Artificial Intelligence) — Final Dissertation**
 
 ---
 
@@ -126,9 +124,8 @@ jupyter notebook "Anomaly_Detection_in_Aircraft_Maintenance_Logs.ipynb"
 If you use or reference this work, please cite:
 
 ```
-Shaji, A. (2025). Anomaly Detection in Aircraft Maintenance Logs.
-MSc Dissertation, University of East London.
-Supervisor: Mr. Mahmud Ahmed.
+Anomaly Detection in Aircraft Maintenance Logs.
+MSc Dissertation, 2025.
 ```
 
 ---

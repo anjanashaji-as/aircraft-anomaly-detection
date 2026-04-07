@@ -1,4 +1,4 @@
-# ✈️ Anomaly Detection in Aircraft Maintenance Logs
+# Anomaly Detection in Aircraft Maintenance Logs
 
 **MSc Computer Science (Artificial Intelligence) — Final Dissertation**  
 **University of East London**  
@@ -6,13 +6,13 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project presents a machine learning framework for detecting anomalies in unstructured aircraft maintenance logs — without requiring labeled data. It combines classical unsupervised models, hybrid fusion, and deep learning (BERT + Autoencoder) to surface unusual log entries that may indicate latent safety risks.
 
 ---
 
-## 🧠 Models Used
+## Models Used
 
 | Model | Features Used | Strength |
 |---|---|---|
@@ -23,7 +23,7 @@ This project presents a machine learning framework for detecting anomalies in un
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 aircraft-anomaly-detection/
@@ -58,7 +58,7 @@ aircraft-anomaly-detection/
 
 ---
 
-## ⚙️ Setup & Installation
+## Setup & Installation
 
 ### 1. Clone the repository
 ```bash
@@ -79,11 +79,11 @@ Place the five CSV files into the `data/` folder (see structure above).
 jupyter notebook "Anomaly_Detection_in_Aircraft_Maintenance_Logs.ipynb"
 ```
 
-> ⚠️ **Note:** The notebook was originally developed on **Google Colab**. If running locally, the `from google.colab import files` cell (Step 3) should be replaced with local `pd.read_csv('data/filename.csv')` calls.
+> **Note:** The notebook was originally developed on **Google Colab**. If running locally, the `from google.colab import files` cell (Step 3) should be replaced with local `pd.read_csv('data/filename.csv')` calls.
 
 ---
 
-## 📊 Key Results
+## Key Results
 
 | Model | AP Score | P@50 | P@100 |
 |---|---|---|---|
@@ -98,7 +98,7 @@ jupyter notebook "Anomaly_Detection_in_Aircraft_Maintenance_Logs.ipynb"
 
 ---
 
-## 🔑 Key Features
+## Key Features
 
 - Aviation-specific NLP preprocessing (abbreviation expansion, lemmatization, term bank matching)
 - Dual feature representation: TF-IDF vectors + structured linguistic indicators
@@ -109,7 +109,7 @@ jupyter notebook "Anomaly_Detection_in_Aircraft_Maintenance_Logs.ipynb"
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Python 3.9**
 - **scikit-learn** — OC-SVM, Isolation Forest, Logistic Regression
@@ -121,7 +121,7 @@ jupyter notebook "Anomaly_Detection_in_Aircraft_Maintenance_Logs.ipynb"
 
 ---
 
-## 📚 Citation
+## Citation
 
 If you use or reference this work, please cite:
 
@@ -133,6 +133,6 @@ Supervisor: Mr. Mahmud Ahmed.
 
 ---
 
-## 📄 License
+## License
 
 This project is submitted as an academic dissertation. Please contact the author before reusing any part of this work.
